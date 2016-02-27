@@ -1,3 +1,43 @@
-{ 
-	"names": ["David", "Rattanak", "Dino", "Deborah", "Liz", "Fred", "Brian", "Jon", "Kat", "Pawanjit", "Elena"]
+{
+	"names": [{
+		"id": "1",
+		"name": "David",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "2",
+		"name": "Dino",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "3",
+		"name": "Deborah",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "4",
+		"name": "Liz",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "5",
+		"name": "Fred",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "6",
+		"name": "Brian",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "7",
+		"name": "Jon",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "8",
+		"name": "Kat",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "9",
+		"name": "Pawanjit",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}, {
+		"id": "10",
+		"name": "Elena",
+		"logins": ["January 10, 2016", "February 1, 2016"]
+	}]
 }

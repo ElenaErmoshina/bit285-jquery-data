@@ -14,8 +14,18 @@
 					 console.log(data); 
 					 console.log("Printing data.names");console.log(data.names);
 					$.each(data.names, function(i,val){
+						var logins = $("<ul></ul>");
+						$.each(val.logins, function(j, login){
+							$("<li></li>")
+							.html(login)
+							.appendTo(logins);
+						});
+
+						console.log(logins);
+
 						$("<li></li>")
-						.html(val)
+						.html(val.name + ', Id:' + val.id)
+						.append(logins)
 						.appendTo("ul#userList");	
 					});
 				});				
